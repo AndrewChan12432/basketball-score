@@ -1,13 +1,38 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+a {
+  text-decoration: none;
+  color: whitesmoke;
+  font-family: "Staatliches", cursive;
+  font-size: 40px;
+}
+a:hover {
+  text-decoration: none;
+  color: whitesmoke;
+  font-size: 40px;
+}
+.App {
+  background-image: url("http://www.cogssandakan.com/News/img/basketball.jpg");
+  background-size: cover;
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+}
+.Page1 {
+  color: whitesmoke;
+  font-family: "Staatliches", cursive;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.SetTime {
+  display: flex;
+}
+.container-2 {
+  display: flex;
 }
