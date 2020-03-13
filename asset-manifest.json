@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/basketball-score/static/css/main.c5491caa.chunk.css",
-    "main.js": "/basketball-score/static/js/main.7db30469.chunk.js",
-    "main.js.map": "/basketball-score/static/js/main.7db30469.chunk.js.map",
-    "runtime-main.js": "/basketball-score/static/js/runtime-main.e7eb3728.js",
-    "runtime-main.js.map": "/basketball-score/static/js/runtime-main.e7eb3728.js.map",
-    "static/js/2.9e7f03a4.chunk.js": "/basketball-score/static/js/2.9e7f03a4.chunk.js",
-    "static/js/2.9e7f03a4.chunk.js.map": "/basketball-score/static/js/2.9e7f03a4.chunk.js.map",
-    "index.html": "/basketball-score/index.html",
-    "precache-manifest.6fe395326f812fcd9d17ee2b302dd93c.js": "/basketball-score/precache-manifest.6fe395326f812fcd9d17ee2b302dd93c.js",
-    "service-worker.js": "/basketball-score/service-worker.js",
-    "static/css/main.c5491caa.chunk.css.map": "/basketball-score/static/css/main.c5491caa.chunk.css.map",
-    "static/js/2.9e7f03a4.chunk.js.LICENSE.txt": "/basketball-score/static/js/2.9e7f03a4.chunk.js.LICENSE.txt"
+    "main.css": "/basketball-score/scoreboard/static/css/main.c5491caa.chunk.css",
+    "main.js": "/basketball-score/scoreboard/static/js/main.7ec0dba5.chunk.js",
+    "main.js.map": "/basketball-score/scoreboard/static/js/main.7ec0dba5.chunk.js.map",
+    "runtime-main.js": "/basketball-score/scoreboard/static/js/runtime-main.2a551bf1.js",
+    "runtime-main.js.map": "/basketball-score/scoreboard/static/js/runtime-main.2a551bf1.js.map",
+    "static/js/2.9e7f03a4.chunk.js": "/basketball-score/scoreboard/static/js/2.9e7f03a4.chunk.js",
+    "static/js/2.9e7f03a4.chunk.js.map": "/basketball-score/scoreboard/static/js/2.9e7f03a4.chunk.js.map",
+    "index.html": "/basketball-score/scoreboard/index.html",
+    "precache-manifest.e344fccdd13253a9c83a83260d39b22c.js": "/basketball-score/scoreboard/precache-manifest.e344fccdd13253a9c83a83260d39b22c.js",
+    "service-worker.js": "/basketball-score/scoreboard/service-worker.js",
+    "static/css/main.c5491caa.chunk.css.map": "/basketball-score/scoreboard/static/css/main.c5491caa.chunk.css.map",
+    "static/js/2.9e7f03a4.chunk.js.LICENSE.txt": "/basketball-score/scoreboard/static/js/2.9e7f03a4.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.e7eb3728.js",
+    "static/js/runtime-main.2a551bf1.js",
     "static/js/2.9e7f03a4.chunk.js",
     "static/css/main.c5491caa.chunk.css",
-    "static/js/main.7db30469.chunk.js"
+    "static/js/main.7ec0dba5.chunk.js"
   ]
 }
