@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "46fe269976d1dfa43489d5df5b538c38",
+    "revision": "566a324ebaf71fc52c41a29f0ad43832",
     "url": "/basketball-score/index.html"
   },
   {
-    "revision": "fbf43f4758d0aa26e5d3",
-    "url": "/basketball-score/static/css/main.9312d27b.chunk.css"
+    "revision": "9edcd5c43a221124e563",
+    "url": "/basketball-score/static/css/main.27a37182.chunk.css"
   },
   {
     "revision": "ca741ef034bc2e2a11ca",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/basketball-score/static/js/2.474f0122.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "fbf43f4758d0aa26e5d3",
-    "url": "/basketball-score/static/js/main.ce2c16bf.chunk.js"
+    "revision": "9edcd5c43a221124e563",
+    "url": "/basketball-score/static/js/main.74ca012a.chunk.js"
   },
   {
     "revision": "0d0d2226c7f9be4387a0",
