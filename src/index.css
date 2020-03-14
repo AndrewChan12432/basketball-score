@@ -2,18 +2,22 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  color: whitesmoke
 }
 
 a {
   text-decoration: none;
   color: whitesmoke;
   font-family: "Staatliches", cursive;
-  font-size: 40px;
+  font-size: 30px;
 }
 a:hover {
   text-decoration: none;
   color: whitesmoke;
-  font-size: 40px;
+}
+.Navbar ul {
+  list-style: none;
+  font-size: 20px;
 }
 .App {
   background-image: url("http://www.cogssandakan.com/News/img/basketball.jpg");
