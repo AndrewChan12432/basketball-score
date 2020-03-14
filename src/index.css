@@ -2,23 +2,21 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  color: whitesmoke
-}
-
-a {
-  text-decoration: none;
   color: whitesmoke;
   font-family: "Staatliches", cursive;
+}
+
+a{
+  color: whitesmoke;
   font-size: 30px;
+  text-decoration: none;
 }
 a:hover {
-  text-decoration: none;
   color: whitesmoke;
+  font-size: 30px;
+  text-decoration: none;
 }
-.Navbar ul {
-  list-style: none;
-  font-size: 20px;
-}
+
 .App {
   background-image: url("http://www.cogssandakan.com/News/img/basketball.jpg");
   background-size: cover;
@@ -26,17 +24,7 @@ a:hover {
   width: 100vw;
   height: 100vh;
 }
-.Page1 {
-  color: whitesmoke;
-  font-family: "Staatliches", cursive;
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-.SetTime {
-  display: flex;
-}
-.container-2 {
-  display: flex;
+
+.intro, .enter-time, .enter-name-A, .enter-name-B, .scoreboard, .page-not-found {
+  height: 100vh;
 }
