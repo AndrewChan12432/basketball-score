@@ -1,4 +1,5 @@
 import React, { useEffect } from 'react'
+import Buzzer from '../buzzerSound.mpeg'
 import $ from 'jquery';
 
 const Sroceboard = () =>{
@@ -309,14 +310,14 @@ const Sroceboard = () =>{
     });
     });
     return(
-        <div className="scoreboard d-flex justify-content-center align-items-center">
+        <div className="scoreboard d-flex justify-content-center">
              <div id="2_page" className="position_all">
             <div className="position_quater">
                 <div id="quater_change" className="quater_change_style">FIRST</div>
                 <div className="quater_stlye">QUARTER</div>
             </div>
             <div className="position_timer">
-                <div id="clock_1" className="light">
+                <div id="clock_1" className="light light_clock">
                     <div className="display_1 d-flex">
                         <div id="myReset">
                             <div id="plusMin" className="changtime">+</div>
@@ -342,11 +343,15 @@ const Sroceboard = () =>{
                 <div className="display_2">
                     <div id="timeout" className="timeoutstyle">Timeout
                     </div>
+                    <div className="half_white">
                     <div className="digits_2"></div>
-                    <div className="mr-3">s</div>
+                    <div className="ml-1">s</div>
+                    </div>
                 </div>
             </div>
-
+            <audio id="myAudio">
+            <source src={Buzzer} type="audio/mpeg" />
+           </audio>
         </div>
         </div>
     )

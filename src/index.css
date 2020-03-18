@@ -31,44 +31,45 @@ a:hover {
 
 /* clock */
 .quater_change_style{
-  width: 200px; 
+  width: 130px; 
   cursor: pointer;
 }
 .quater_stlye{
-  padding: 10px 20px; 
+  padding: 9px;
   color: white;
 }
 
 .position_all {
   display: inline-flex;
   flex-direction: column;
+  font-size: 20px;
+  color: #272e38;
   background: #cc000000;
 }
 .position_quater {
-  display: inline-flex;
-  justify-content: space-between;
-  margin-bottom: 20px;
-  font-size: 2em;
-  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  font-size: 20px;
+  margin: 5px 0px;
   text-align: center;
 }
 #quater_change {
-  padding : 10px 20px;
-  border: 3px solid white;
-  border-radius: 5px;
+  padding: 7px;
+  border: 2px solid white;
+  border-radius: 40px;
   color: white;
 }
 .position_timer {
   display: flex;
-  padding : 30px 40px;
+  padding : 10px;
   background: black;
   border-radius: 5px;
 background-color: whitesmoke;
 }
 .timer_but, .timer_but1 {
-  padding: 10px;
+  padding: 3px;
   margin-top: 10px;
-  font-size: 15px;
+  font-size: 12px;
   cursor: pointer;
   border-radius: 5px;
   background: #dbe4e6;
@@ -76,13 +77,13 @@ background-color: whitesmoke;
 }
 .timeoutstyle {
   cursor: pointer;
-  width: 60%;
-  height: 60px;
-  background-color:black;
   color: white;
-  padding: 15px 0px;
+  text-align: center;
+  width: 50%;
   border-radius: 4px;
-  margin-right: 10px;
+}
+#myReset{
+  font-size: 10px;
 }
 .changtime {
   padding: 0px 5px;
@@ -93,7 +94,6 @@ background-color: whitesmoke;
   cursor: pointer;
 }
 .timer_but1 {
-  width: 95%;
   text-align: center;
 }
 #showInput {
@@ -109,21 +109,32 @@ background-color: whitesmoke;
 }
 
 #clock .display, 
-#clock_1 .display_1,
+#clock_1 .display_1{
+text-align:center;
+border-radius:6px;
+position:relative;
+  padding: 7px;
+}
 #clock_2 .display_2{
 text-align:center;
 border-radius:6px;
 position:relative;
-  padding: 10px;
+padding: 0px;
 }
 #clock_2 .display_2{
-  margin: 10px 0px;
-  display: flex;
-  font-size: 2.3em;
-  padding: 7px 2px;
+  margin: 5px 0px;
+} 
+.light_clock{
+  margin-right: 10px
 }
-
-
+.half_white{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  padding: 5px 0px;
+  background: whitesmoke;
+}
 #clock_1.light .digits_1 div span,
 #clock_2.light .digits_2 div span{
 background-color:#272e38;
@@ -156,24 +167,20 @@ box-shadow:0 1px 1px rgba(0,0,0,0.08) inset, 0 1px 1px #fafafa;
 }
 #clock_2.light .display_2 {
   display: flex;
-  background-color: white;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
+  border: 2px solid whitesmoke;
 }
-#clock_1.light .display_1{
-  margin-right: 10px;
-}
-
 
 #clock .digits div,
 #clock_1 .digits_1 div,
 #clock_2 .digits_2 div{
 text-align:left;
 position:relative;
-width: 26px;
-height:50px;
+width: 24px;
+height:30px;
 display:inline-block;
-margin:0 4px;
+margin:0 1px;
 }
 
 #clock .digits div span,
@@ -202,73 +209,73 @@ border:5px solid transparent;
 
 #clock .digits .d1,
 #clock_1 .digits_1 .d1,
-#clock_2 .digits_2 .d1{			height:5px;width:16px;top:0;left:5px;}
+#clock_2 .digits_2 .d1{			height:3px;width:10px;top:0;left:9px;}
 #clock .digits .d1:before,
 #clock_1 .digits_1 .d1:before,
-#clock_2 .digits_2 .d1:before{	border-width:0 5px 5px 0;border-right-color:inherit;left:-5px;}
+#clock_2 .digits_2 .d1:before{	border-width:0 5px 3px 0;border-right-color:inherit;left:-5px;}
 #clock .digits .d1:after,
 #clock_1 .digits_1 .d1:after,
-#clock_2 .digits_2 .d1:after{	border-width:0 0 5px 5px;border-left-color:inherit;right:-5px;}
+#clock_2 .digits_2 .d1:after{	border-width:0 0 3px 5px;border-left-color:inherit;right:-5px;}
 
 #clock .digits .d2,
 #clock_1 .digits_1 .d2,
-#clock_2 .digits_2 .d2{			height:5px;width:16px;top:24px;left:5px;}
+#clock_2 .digits_2 .d2{			height:3px;width:10px;top:18px;left:9px;}
 #clock .digits .d2:before,
 #clock_1 .digits_1 .d2:before,
-#clock_2 .digits_2 .d2:before{	border-width:3px 4px 2px;border-right-color:inherit;left:-8px;}
+#clock_2 .digits_2 .d2:before{	border-width:1px 4px 2px;border-right-color:inherit;left:-8px;}
 #clock .digits .d2:after,
 #clock_1 .digits_1 .d2:after,
-#clock_2 .digits_2 .d2:after{    	border-width:3px 4px 2px;border-left-color:inherit;right:-8px;}
+#clock_2 .digits_2 .d2:after{    	border-width:1px 4px 2px;border-left-color:inherit;right:-8px;}
 
 #clock .digits .d3,
 #clock_1 .digits_1 .d3,
-#clock_2 .digits_2 .d3{			height:5px;width:16px;top:48px;left:5px;}
+#clock_2 .digits_2 .d3{			height:3px;width:10px;top:35px;left:9px;}
 #clock .digits .d3:before,
 #clock_1 .digits_1 .d3:before,
-#clock_2 .digits_2 .d3:before{	border-width:5px 5px 0 0;border-right-color:inherit;left:-5px;}
+#clock_2 .digits_2 .d3:before{	border-width:3px 5px 0 0;border-right-color:inherit;left:-5px;}
 #clock .digits .d3:after,
 #clock_1 .digits_1 .d3:after,
-#clock_2 .digits_2 .d3:after{	border-width:5px 0 0 5px;border-left-color:inherit;right:-5px;}
+#clock_2 .digits_2 .d3:after{	border-width:3px 0 0 5px;border-left-color:inherit;right:-5px;}
 
 #clock .digits .d4,
 #clock_1 .digits_1 .d4,
-#clock_2 .digits_2 .d4{			width:5px;height:14px;top:7px;left:0;}
+#clock_2 .digits_2 .d4{			width:3px;height:10px;top:5px;left:4px;}
 #clock .digits .d4:before,
 #clock_1 .digits_1 .d4:before,
-#clock_2 .digits_2 .d4:before{	border-width:0 5px 5px 0;border-bottom-color:inherit;top:-5px;}
+#clock_2 .digits_2 .d4:before{	border-width:0 3px 5px 0;border-bottom-color:inherit;top:-5px;}
 #clock .digits .d4:after,
 #clock_1 .digits_1 .d4:after,
-#clock_2 .digits_2 .d4:after{	border-width:0 0 5px 5px;border-left-color:inherit;bottom:-5px;}
+#clock_2 .digits_2 .d4:after{	border-width:0 0 5px 3px;border-left-color:inherit;bottom:-5px;}
 
 #clock .digits .d5,
 #clock_1 .digits_1 .d5,
-#clock_2 .digits_2 .d5{			width:5px;height:14px;top:7px;right:0;}
+#clock_2 .digits_2 .d5{			width:3px;height:10px;top:5px;right:0;}
 #clock .digits .d5:before,
 #clock_1 .digits_1 .d5:before,
-#clock_2 .digits_2 .d5:before{	border-width:0 0 5px 5px;border-bottom-color:inherit;top:-5px;}
+#clock_2 .digits_2 .d5:before{	border-width:0 0 5px 3px;border-bottom-color:inherit;top:-5px;}
 #clock .digits .d5:after,
 #clock_1 .digits_1 .d5:after,
-#clock_2 .digits_2 .d5:after{	border-width:5px 0 0 5px;border-top-color:inherit;bottom:-5px;}
+#clock_2 .digits_2 .d5:after{	border-width:5px 0 0 3px;border-top-color:inherit;bottom:-5px;}
 
 #clock .digits .d6,
 #clock_1 .digits_1 .d6,
-#clock_2 .digits_2 .d6{			width:5px;height:14px;top:32px;left:0;}
+#clock_2 .digits_2 .d6{			width:3px;height:10px;top:23px;left:4px;}
 #clock .digits .d6:before,
 #clock_1 .digits_1 .d6:before,
-#clock_2 .digits_2 .d6:before{	border-width:0 5px 5px 0;border-bottom-color:inherit;top:-5px;}
+#clock_2 .digits_2 .d6:before{	border-width:0 3px 5px 0;border-bottom-color:inherit;top:-5px;}
 #clock .digits .d6:after,
 #clock_1 .digits_1 .d6:after,
-#clock_2 .digits_2 .d6:after{	border-width:0 0 5px 5px;border-left-color:inherit;bottom:-5px;}
+#clock_2 .digits_2 .d6:after{	border-width:0 0 5px 3px;border-left-color:inherit;bottom:-5px;}
 
 #clock .digits .d7,
 #clock_1 .digits_1 .d7,
-#clock_2 .digits_2 .d7{			width:5px;height:14px;top:32px;right:0;}
+#clock_2 .digits_2 .d7{			width:3px;height:10px;top:23px;right:0px;}
 #clock .digits .d7:before,
 #clock_1 .digits_1 .d7:before,
-#clock_2 .digits_2 .d7:before{	border-width:0 0 5px 5px;border-bottom-color:inherit;top:-5px;}
+#clock_2 .digits_2 .d7:before{	border-width:0 0 5px 3px;border-bottom-color:inherit;top:-5px;}
 #clock .digits .d7:after,
 #clock_1 .digits_1 .d7:after,
-#clock_2 .digits_2 .d7:after{	border-width:5px 0 0 5px;border-top-color:inherit;bottom:-5px;}
+#clock_2 .digits_2 .d7:after{	border-width:5px 0 0 3px;border-top-color:inherit;bottom:-5px;}
 
 
 /* 1 */
@@ -478,14 +485,15 @@ width:5px;
 
 #clock_1 .digits_1 div.dots:before,
 #clock_1 .digits_1 div.dots:after{
-width:5px;
-height:5px;
+width:3px;
+height:3px;
 content:'';
 position:absolute;
 left:0;
-top:14px;
+top:10px;
 }
 
 #clock_1 .digits_1 div.dots:after{
 top:34px;
 }
+
