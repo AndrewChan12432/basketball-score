@@ -25,11 +25,16 @@ a:hover {
   height: 100vh;
 }
 
-.intro, .enter-time, .enter-name-A, .enter-name-B, .scoreboard, .page-not-found {
+.intro, .enter-time, .enter-name-A, .enter-name-B, .page-not-found {
   height: 100vh;
 }
 
 /* clock */
+.scoreboard{
+  position: relative;
+  z-index: 1000;
+  top: 15px
+}
 .quater_change_style{
   width: 130px; 
   cursor: pointer;
@@ -480,7 +485,8 @@ opacity:1;
 /* The dots */
 
 #clock_1 .digits_1 div.dots{
-width:5px;
+  margin: 0 5px;
+  width: 0;
 }
 
 #clock_1 .digits_1 div.dots:before,
@@ -494,6 +500,153 @@ top:10px;
 }
 
 #clock_1 .digits_1 div.dots:after{
-top:34px;
+top:25px;
 }
+.alert-portrait{
+  display: none;
+  height: 100vh;
+}
+
+/* Count-points */
+.count-points{
+  position: absolute;
+  top: 15px
+}
+.teamA{
+  position: relative;
+  left: 45px;
+}
+.teamB{
+  position: relative;
+  right: 45px;
+}
+.teamA p{
+  padding: 75px;
+  background-color: #900C3F;
+  border-radius: 10px;
+
+}
+.teamB p{
+  padding: 75px;
+  background-color: #2F7FBF;
+  border-radius: 10px;
+}
+.team-fouls p{
+  margin: 10px 0;
+}
+.players-score p{
+  padding: 10px;
+}
+.black{
+  background-color: rgba(0,0,0,.5);
+}
+
+/* alert-portrait */
+@media only screen and (orientation: portrait) {
+  .App {
+    display: none;
+  }
+  .alert-portrait{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    color: whitesmoke;
+  }
+  .alert-portrait h1{
+    text-align:center;
+  }
+  
+  .alert-portrait .pull{
+    position:absolute;
+    right:10px;
+    top:50%;
+    margin-top:-10px;
+  }
+  
+  .alert-portrait .overlay{
+    display:none;
+    position:absolute;
+    background-color:rgba(0,0,0,.6);
+    width:100%;
+    height:100%;
+  }
+  
+  .alert-portrait .iconContainer{
+    width:200px;
+    height:200px;
+    position:absolute;
+    left:50%;
+    top:45%;
+    margin-left:-100px;
+    margin-top:-100px;
+  }
+  .alert-portrait p{
+    position: relative;
+    font-size: 35px;
+    top: 50px;
+    text-align:center;
+    }
+  
+  .alert-portrait .phone{
+    position:relative;
+    left:50%;
+    margin-left:-50px;
+    width:0;
+    height:0;
+    border:0 solid #000;
+    background:#a9a9a9;
+    border-radius:10px;
+    box-sizing:border-box;
+  }
+  .alert-portrait i{
+      text-align:center;
+      width:100%;
+      line-height:120px;
+      font-size:50px;
+      color:#454545;
+      opacity:0;
+    }
+    .alert-portrait .overlay{	display:block; }
+  
+    .alert-portrait .overlay .phone{
+      animation:
+        sizeIncrease .5s forwards ease, 
+        borderIncrease .5s .5s forwards ease, 
+        rotateRight .7s 1s forwards ease;
+    }
+  
+    .alert-portrait .overlay .phone i{
+      animation:
+        fadeIn .5s .8s forwards ease;
+    }
+  
+    .alert-portrait .overlay .iconContainer p{
+      animation:
+        fadeIn .5s 1.3s forwards ease;
+    }
+  }
+  
+  /* KEYFRAMES
+  ------------------------------------------- */
+  /* Animate width + height */
+  @keyframes sizeIncrease {
+    0%   { width: 0; height:10px; }
+    50%  { width: 100px; height: 10px; }
+    100% { width: 100px; height:160px; }
+  }
+  /* Add borders */
+  @keyframes borderIncrease { 
+    100% { border-width:20px 10px; } 
+  }
+  
+  /* fade-in  */
+  @keyframes fadeIn { 
+    100% { color:#000; opacity:1; } 
+  }
+  
+  /* Rotate device */
+  @keyframes rotateRight { 
+    100% { transform: rotate(90deg); } 
+  }
 

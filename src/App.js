@@ -20,6 +20,17 @@ function App() {
         <Route component={PageNotFound} />
         </Switch>
       </div>
+      <div className="alert-portrait">
+      <div className="overlay">
+        <div className="iconContainer">
+          <div className="phone">
+            <i className="fa fa-sync-alt" aria-hidden="true" >
+            </i>
+          </div>
+        </div>
+      </div>
+      <p>Rotate your phone</p>
+      </div>
     </HashRouter>
   );
 }
