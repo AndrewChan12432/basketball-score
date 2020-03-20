@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/basketball-score/static/css/main.76cccd65.chunk.css",
-    "main.js": "/basketball-score/static/js/main.2492d03c.chunk.js",
-    "main.js.map": "/basketball-score/static/js/main.2492d03c.chunk.js.map",
+    "main.css": "/basketball-score/static/css/main.494dddc4.chunk.css",
+    "main.js": "/basketball-score/static/js/main.361676a6.chunk.js",
+    "main.js.map": "/basketball-score/static/js/main.361676a6.chunk.js.map",
     "runtime-main.js": "/basketball-score/static/js/runtime-main.e7eb3728.js",
     "runtime-main.js.map": "/basketball-score/static/js/runtime-main.e7eb3728.js.map",
     "static/js/2.c3ab25e2.chunk.js": "/basketball-score/static/js/2.c3ab25e2.chunk.js",
     "static/js/2.c3ab25e2.chunk.js.map": "/basketball-score/static/js/2.c3ab25e2.chunk.js.map",
     "index.html": "/basketball-score/index.html",
-    "precache-manifest.91a5a4a4449217213ed66e8caaad7198.js": "/basketball-score/precache-manifest.91a5a4a4449217213ed66e8caaad7198.js",
+    "precache-manifest.3fd6df7a5b61fd01a2b624b23cefe0c5.js": "/basketball-score/precache-manifest.3fd6df7a5b61fd01a2b624b23cefe0c5.js",
     "service-worker.js": "/basketball-score/service-worker.js",
-    "static/css/main.76cccd65.chunk.css.map": "/basketball-score/static/css/main.76cccd65.chunk.css.map",
+    "static/css/main.494dddc4.chunk.css.map": "/basketball-score/static/css/main.494dddc4.chunk.css.map",
     "static/js/2.c3ab25e2.chunk.js.LICENSE.txt": "/basketball-score/static/js/2.c3ab25e2.chunk.js.LICENSE.txt",
     "static/media/buzzerSound.mpeg": "/basketball-score/static/media/buzzerSound.5b30c18a.mpeg"
   },
   "entrypoints": [
     "static/js/runtime-main.e7eb3728.js",
     "static/js/2.c3ab25e2.chunk.js",
-    "static/css/main.76cccd65.chunk.css",
-    "static/js/main.2492d03c.chunk.js"
+    "static/css/main.494dddc4.chunk.css",
+    "static/js/main.361676a6.chunk.js"
   ]
 }
