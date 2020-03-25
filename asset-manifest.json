@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/basketball-score/static/css/main.90869f91.chunk.css",
-    "main.js": "/basketball-score/static/js/main.402be41a.chunk.js",
-    "main.js.map": "/basketball-score/static/js/main.402be41a.chunk.js.map",
+    "main.css": "/basketball-score/static/css/main.c6546a07.chunk.css",
+    "main.js": "/basketball-score/static/js/main.10def49d.chunk.js",
+    "main.js.map": "/basketball-score/static/js/main.10def49d.chunk.js.map",
     "runtime-main.js": "/basketball-score/static/js/runtime-main.e7eb3728.js",
     "runtime-main.js.map": "/basketball-score/static/js/runtime-main.e7eb3728.js.map",
-    "static/js/2.c3ab25e2.chunk.js": "/basketball-score/static/js/2.c3ab25e2.chunk.js",
-    "static/js/2.c3ab25e2.chunk.js.map": "/basketball-score/static/js/2.c3ab25e2.chunk.js.map",
+    "static/js/2.9ec50cf7.chunk.js": "/basketball-score/static/js/2.9ec50cf7.chunk.js",
+    "static/js/2.9ec50cf7.chunk.js.map": "/basketball-score/static/js/2.9ec50cf7.chunk.js.map",
     "index.html": "/basketball-score/index.html",
-    "precache-manifest.1f9817dc8139b380916b771be2738c9c.js": "/basketball-score/precache-manifest.1f9817dc8139b380916b771be2738c9c.js",
+    "precache-manifest.24c25632524fd311bb6dbefeec1e07a0.js": "/basketball-score/precache-manifest.24c25632524fd311bb6dbefeec1e07a0.js",
     "service-worker.js": "/basketball-score/service-worker.js",
-    "static/css/main.90869f91.chunk.css.map": "/basketball-score/static/css/main.90869f91.chunk.css.map",
-    "static/js/2.c3ab25e2.chunk.js.LICENSE.txt": "/basketball-score/static/js/2.c3ab25e2.chunk.js.LICENSE.txt",
+    "static/css/main.c6546a07.chunk.css.map": "/basketball-score/static/css/main.c6546a07.chunk.css.map",
+    "static/js/2.9ec50cf7.chunk.js.LICENSE.txt": "/basketball-score/static/js/2.9ec50cf7.chunk.js.LICENSE.txt",
     "static/media/buzzerSound.mpeg": "/basketball-score/static/media/buzzerSound.5b30c18a.mpeg"
   },
   "entrypoints": [
     "static/js/runtime-main.e7eb3728.js",
-    "static/js/2.c3ab25e2.chunk.js",
-    "static/css/main.90869f91.chunk.css",
-    "static/js/main.402be41a.chunk.js"
+    "static/js/2.9ec50cf7.chunk.js",
+    "static/css/main.c6546a07.chunk.css",
+    "static/js/main.10def49d.chunk.js"
   ]
 }
